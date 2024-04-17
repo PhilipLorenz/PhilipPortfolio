@@ -11,13 +11,30 @@
     <nav id="desktop-nav">
         <div class="logo">PHILIP</div>
         <div>
-            <ul>
+            <ul class="nav-links">
                 <li><a href="#About">About</a></li>
                 <li><a href="#Experience">Experience</a></li>
                 <li><a href="#Academic">Academic</a></li>
                 <li><a href="#Skills">Skills</a></li>
                 <li><a href="#Achivements">Achivements</a></li>
             </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">PHILIP</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#About" onclick="toggleMenu()">About</a></li>
+                <li><a href="#Experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#Academic" onclick="toggleMenu()">Academic</a></li>
+                <li><a href="#Skills" onclick="toggleMenu()">Skills</a></li>
+                <li><a href="#Achivements" onclick="toggleMenu()">Achivements</a></li>
+            </div>
         </div>
     </nav>
     <script src="script.js"></script>
