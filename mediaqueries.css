@@ -37,4 +37,8 @@
         background-color: transparent;
         color: black;
     }
+
+    #Experience{
+        display: none;
+    }
 }
