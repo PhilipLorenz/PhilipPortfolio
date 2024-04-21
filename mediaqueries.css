@@ -6,4 +6,35 @@
     #hamburger-nav{
         display: flex;
     }
+
+    #About{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 1vh;
+        font-size: 0.5rem;
+        cursor: default;
+    }
+
+    #About table{
+        border-style:solid;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+    }
+
+    .about-btn button{
+        border-radius: 10px;
+        background-color: black;
+        color: white;
+        font-size: 0.5rem;
+        width: 4rem;
+        height: 1rem;
+    }
+    
+    .about-btn button:hover{
+        transition: all 300ms ease;
+        background-color: transparent;
+        color: black;
+    }
 }

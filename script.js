@@ -4,3 +4,10 @@ function toggleMenu(){
     menu.classList.toggle("open");
     icon.classList.toggle("open");
 }
+
+function downCV(){
+    
+}
+function goToLinkdIn(){
+    window.location="https://www.linkedin.com/in/philiplorenzdlsarmiento/"
+}
