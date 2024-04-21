@@ -137,13 +137,6 @@ a:hover{
     transform: none;
 }
 
-#About table{
-    border-style:solid;
-    width: 250px;
-    height: 250px;
-    text-align: center;
-}
-
 #About{
     display: flex;
     align-items: center;
