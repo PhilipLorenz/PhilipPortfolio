@@ -6,13 +6,13 @@ function toggleMenu(){
 }
 
 function downCV(){
-    const pdfUrl = 'assets/PLDS_CV.pdf';
+    /*const pdfUrl = 'assets/PLDS_CV.pdf';
     var a = document.createElement('a');
     a.href = pdfUrl;
     a.download = 'PLDS_CV.pdf';
     document.body.appendChild(a);
     a.click();
-    document.body.removeChild(a);
+    document.body.removeChild(a);*/
 }
 function goToLinkdIn(){
     window.location="https://www.linkedin.com/in/philiplorenzdlsarmiento/"
